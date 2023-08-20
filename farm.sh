@@ -1,8 +1,8 @@
 while [ 2 -eq 2 ]; do
-	sed 's/# 1/2/' farm.sh
-	sed 's/# 2/1/' farm.sh
+	sed -i 's/2/2/' farm.sh
+	sed -i 's/1/1/' farm.sh
 
 	git commit -am 'stuff'
 done
 
-# 1
+2
