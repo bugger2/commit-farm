@@ -8,4 +8,4 @@ while [ 2 -eq 2 ]; do
 	git commit -am 'stuff'
 done
 
-1
+2
